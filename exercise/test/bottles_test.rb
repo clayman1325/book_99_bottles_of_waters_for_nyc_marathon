@@ -1,7 +1,7 @@
 gem 'minitest', '~> 5.4'
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative '../lib/bottles'
+require_relative '../lib/bottles_david'
 
 class BottlesTest < Minitest::Test
   def test_the_first_verse

@@ -45,3 +45,7 @@ class Bottles
       "Take #{how_many(n)} down and pass it around, "
     end
   end
+
+  bottes = Bottles.new
+
+  p bottes.song
